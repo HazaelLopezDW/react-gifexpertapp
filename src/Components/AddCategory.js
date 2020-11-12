@@ -12,7 +12,7 @@ const AddCategory = ({ setCategories }) => {
     const handelSubmit = (ev) =>{
        if(inputValue.trim().length > 2){
             ev.preventDefault();
-            setCategories(category => [...category, inputValue]);
+            setCategories(category => [inputValue, ...category]);
             setInputValue('')
        }
     }
