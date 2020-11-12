@@ -1,5 +1,5 @@
-import React from 'react'
-import useFetchGifs from '../Hooks/useFetchGifs'
+import React from 'react';
+import useFetchGifs from '../Hooks/useFetchGifs';
 import GifGridItem from './GifGridItem';
 
  const GifGrid = ({category}) => {
@@ -24,4 +24,4 @@ import GifGridItem from './GifGridItem';
     )
 }
 
-export default GifGrid
+export default GifGrid;

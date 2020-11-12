@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React from 'react';
 
 const GifGridItem = ({id, title, url}) => {
 
@@ -13,4 +12,4 @@ const GifGridItem = ({id, title, url}) => {
     )
 }
 
-export default GifGridItem
+export default GifGridItem;
